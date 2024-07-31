@@ -3,6 +3,7 @@ export const navItems = [
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
+    { name: "Github", link: "/https://github.com/OlawuniTemitope"},
   ];
   
   export const gridItems = [
@@ -72,27 +73,27 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      title: "Advance next auth",
+      des: "All you need for authentication include 2FA email by resend or mailtrap, emaill verification and more",
+      img: "/nextauth.PNG",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      link: "https://next-14auth.vercel.app/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
+      title: "3D portfofio website",
+      des: "Advance 3D portfolio",
+      img: "/3dport1.PNG",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      link: "https://3-d-model-portfolio.vercel.app/",
     },
     {
       id: 3,
       title: "AI Image SaaS - Canva Application",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
+      img: "/car.PNG",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
+      link: "https://temitope-carportfolio-next.vercel.app/",
     },
     {
       id: 4,
@@ -100,7 +101,39 @@ export const navItems = [
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
+      link: "https://iphone-doc.vercel.app/",
+    },
+    {
+      id: 5,
+      title: "Omnifood website",
+      des: "Built a food website with HTM, CSS and little bit of JavaScript ",
+      img: "/omnifood.PNG",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      link: "https://temitopehtmlport.netlify.app/",
+    },
+    {
+      id: 2,
+      title: "twitch clone where you can have live screen sharing, and other social media functionalities",
+      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      img: "/tiwtch.PNG",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      link: "https://twitch-clone-ivory-one.vercel.app/",
+    },
+    {
+      id: 3,
+      title: "Advance ecomerce store",
+      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      img: "/ecomstore.PNG",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      link: "https://e-commer-store.vercel.app/",
+    },
+    {
+      id: 4,
+      title: "Advance ecomerce dashboard",
+      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      img: "/ecomdash.PNG",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://e-commerce-admin-dashboard-azure.vercel.app/",
     },
   ];
   
