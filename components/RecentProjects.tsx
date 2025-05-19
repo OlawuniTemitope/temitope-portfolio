@@ -4,6 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
+import Link from "next/link";
 
 const RecentProjects = () => {
   return (
@@ -22,14 +23,15 @@ const RecentProjects = () => {
           >
             <PinContainer
               title="/ui.aceternity.com"
-              href= {item.link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw]
                overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+                 <Link href= {item.link}>
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
+                
                   <img src="/bg.png" alt="bgimg" />
                 </div>
                 <img
@@ -37,8 +39,9 @@ const RecentProjects = () => {
                   alt="cover"
                   className="z-10 absolute bottom-0"
                 />
+                </Link>
               </div>
-
+              <Link href={item.link}>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {item.title}
               </h1>
@@ -54,10 +57,11 @@ const RecentProjects = () => {
               >
                 {item.des}
               </p>
-
+                  </Link>
+               
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
-                  {item.iconLists.map((icon, index) => (
+                  {item?.iconLists?.map((icon, index) => (
                     <div
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
@@ -69,13 +73,21 @@ const RecentProjects = () => {
                     </div>
                   ))}
                 </div>
-
+           <Link href={item.github}>
+            <div className="flex flex-col mr-1 text-sm p-4">
+             <p>Check</p>
+             <p className="text-purple">Github</p>
+             <button> <img src="/git.webp" width={40} height={40} alt="" /></button>
+                </div>
+              </Link>
+                  <Link href={item.link}>
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
+                </Link>
               </div>
             </PinContainer>
           </div>

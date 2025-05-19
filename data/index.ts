@@ -71,68 +71,132 @@ export const navItems = [
   
   export const projects = [
     {
-      id: 1,
-      title: "Advance next auth",
+    id: 1,
+    img: "/P1.PNG",
+    title: "Full Stack Real Estate Application",
+    des: "FULLSTACK MERN APPLICATION",
+    link: "https://mearn-estate.onrender.com/",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    github:"https://github.com/OlawuniTemitope/mearn-estate"
+  },
+  {
+    
+    id: 2,
+    img: "/p2.jpg",
+    title: "School Management System",
+    des: "NEXT JS APPLICATION WITH ADVANCED ROLE BASE NEXT AUTH BETA",
+    link: "https://school-management-bay-seven.vercel.app/",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    github:"https://github.com/OlawuniTemitope/School_management"
+     },
+  {
+     id: 3,
+    img: "/P3.PNG",
+    title: "Full Stack Tourist Application",
+    des: "COPLETE NODE JS  APLLICATION WITH ALL IMPORTANT FEATURES ON NODE JS AND EXPRESS",
+    link: "https://tourist-4hfd.onrender.com/",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    github:  "https://github.com/OlawuniTemitope/tourist"
+  },
+  {
+    id: 4,
+    img: "/P4.PNG",
+    title: "E-commerce website",
+    des: "Next js Ecommerce Application with all important features of next js",
+    link: "https://e-commerce-kappa-woad.vercel.app/",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    github:"https://github.com/OlawuniTemitope/e-commerce"
+  },
+  
+    {
+      id: 5,
+      title: "Advanced Next Auth beta",
       des: "All you need for authentication include 2FA email by resend or mailtrap, emaill verification and more",
       img: "/nextauth.PNG",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://next-14auth.vercel.app/",
+      github:"https://github.com/OlawuniTemitope/next-14auth"
     },
     {
-      id: 2,
+    id: 6,
+    img: "/P6.PNG",
+    title: "Animated Portfolio Website",
+    des: "Visit For My Past Project",
+     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://myportfoliopage-roan.vercel.app/",
+    github:"https://temitopeportfolio.vercel.app/"
+  },
+  
+  {
+    id: 7,
+    img: "/P9.PNG",
+    title: "Library Management System",
+    des: "Next js Application",
+    link: "https://library-management-taupe-iota.vercel.app/",
+    github:"https://github.com/OlawuniTemitope/library_management"
+  },
+    {
+      id: 8,
       title: "3D portfofio website",
       des: "Advance 3D portfolio",
       img: "/3dport1.PNG",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://3-d-model-portfolio.vercel.app/",
+      github:"https://github.com/OlawuniTemitope/3D-model-portfolio"
     },
     {
-      id: 3,
+      id: 9,
       title: "AI Image SaaS - Canva Application",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/car.PNG",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://temitope-carportfolio-next.vercel.app/",
+      github:"https://github.com/OlawuniTemitope/imaginify"
     },
     {
-      id: 4,
+      id: 10,
       title: "Animated Apple Iphone 3D Website",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://iphone-doc.vercel.app/",
+      github:"https://github.com/OlawuniTemitope/Gsap-animation-portfolio"
     },
     {
-      id: 5,
+      id: 11,
       title: "Omnifood website",
       des: "Built a food website with HTM, CSS and little bit of JavaScript ",
       img: "/omnifood.PNG",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://temitopehtmlport.netlify.app/",
+      github:"https://github.com/OlawuniTemitope/ominifood"
     },
     {
-      id: 2,
+      id: 12,
       title: "twitch clone where you can have live screen sharing, and other social media functionalities",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/tiwtch.PNG",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://twitch-clone-ivory-one.vercel.app/",
+      github:"https://github.com/OlawuniTemitope/twitch-clone"
     },
     {
-      id: 3,
+      id: 13,
       title: "Advance ecomerce store",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/ecomstore.PNG",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://e-commer-store.vercel.app/",
+      github:"https://github.com/OlawuniTemitope/e-commer-store"
     },
     {
-      id: 4,
+      id: 14,
       title: "Advance ecomerce dashboard",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/ecomdash.PNG",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://e-commerce-admin-dashboard-azure.vercel.app/",
+      github:"https://github.com/OlawuniTemitope/e-commerce-admin-dashboard"
     },
   ];
   
