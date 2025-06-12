@@ -24,7 +24,7 @@ const Footer = () => {
         </p>
         <a href="">
           <MagicButton
-            title="Let's get in touch on Fiverr"
+            title="Thanks for contacting me"
             icon={<FaLocationArrow />}
             position="right"
           />
