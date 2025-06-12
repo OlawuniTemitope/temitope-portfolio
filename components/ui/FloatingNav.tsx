@@ -9,7 +9,7 @@ import {
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 
-export const FloatingNav = ({
+export default function FloatingNav  ({
   navItems,
   className,
 }: {
@@ -19,7 +19,7 @@ export const FloatingNav = ({
     icon?: JSX.Element;
   }[];
   className?: string;
-}) => {
+}) {
   const { scrollYProgress } = useScroll();
 
   const [visible, setVisible] = useState(false);
